@@ -5,7 +5,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   A recent graduate of TripleTen's Business Intelligence Analyst program & actively looking for opportunities to leverage my data analysis & visualization skills.
    
-  \n <a href="https://www.linkedin.com/in/neetha-ramamurthy/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/neetha-ramamurthy/">\n View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
