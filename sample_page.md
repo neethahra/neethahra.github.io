@@ -14,7 +14,7 @@ with defalt view and summarized by SUM.
 - An assumption here is studio apartments have no bedrooms , so the count of bedrooms is 0
 - Pivot table is created with following: row as neighborhood_clean (ordered descending sorted by SUM of number_of_reviews_ltm and Grandtotal), column as bedrooms_clean ordered by ascending, sorted by SUM of number_of_reviews_ltm and Grandtotal and value as number_of_reviews_ltm summartized by SUM with % row view.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Targeted Properties.png?raw=true"/>
 
 
 ### 2. Calculate Occupancy
@@ -32,11 +32,11 @@ ascending order and occupied for values showing average with default view
 - Created a bar chart for day_of_week and occupied columns with Y-axis showing aggregated view of day of week 
 and Series of Average of Occupied as SUM and Listing id as COUNT
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Occupancy by DayOfWeek.png?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Average Occupancy per DayOfWeek.png?raw=true"/>
 
 ### 3. Estimate Revenue for an Investment Property
 
@@ -47,7 +47,7 @@ consistency which is determined by the occupancy rate, host being a super host a
 higher number of reviews over the last twelve months
 
 An updated estimated annual income for a 2 bedroom property recommended in Lower East Side neighborhood is 365*451.92*88.99 = $146,786.
-The above recommendation is based on factors like high occupancy rate, high number of reviews over the last twelve months and host being super host.
+- The above recommendation is based on factors like high occupancy rate, high number of reviews over the last twelve months and host being super host.
 
 
 
