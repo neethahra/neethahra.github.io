@@ -12,15 +12,17 @@
 
 ### Business Analytics
 
-- [E-Commerce Business Analytics](http://example.com/)
-- <img src="images/Business Analytics.png?raw=true"/>
+[E-Commerce Business Analytics](http://example.com/)
+<br><br>
+<img src="images/Business Analytics.png?raw=true"/>
 
 ---
 
 ### Data Visualization using Tableau
 
-- [Zomato Data Analysis](http://example.com/)
-- <img src="images/Restaurant Analysis.png?raw=true"/>
+[Zomato Data Analysis](http://example.com/)
+<br><br>
+<img src="images/Restaurant Analysis.png?raw=true"/>
 
 
 ---
