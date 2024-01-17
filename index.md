@@ -5,19 +5,21 @@
 ### Advanced Spreadsheets 
 
 [NYC Airbnb Data Analysis](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Advanced Spreadsheets.png?raw=true"/>
 
 ---
 
 ### Business Analytics
 
 - [E-Commerce Business Analytics](http://example.com/)
+- <img src="images/Business Analytics.png?raw=true"/>
 
 ---
 
 ### Data Visualization using Tableau
 
 - [Zomato Data Analysis](http://example.com/)
+- <img src="images/Restaurant Analysis.png?raw=true"/>
 
 
 ---
