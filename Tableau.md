@@ -1,6 +1,6 @@
-## NYC Airbnb Data Analysis
+## Zomato Data Analysis
 
-**Project description:** Analyze data collected on current Airbnb listings to identify targeted properties, calculate occupancy & estimate revenue for an investment property.
+**Project description:** Create Visualizations and dashboard using Tableau to analyze restaurant data by Zomato to understand popular restaurants, cuisines, restaurants generating highest revenue amongst others.
 
 ### 1. Identify Targeted Properties
 
