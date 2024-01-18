@@ -40,7 +40,7 @@ and Series of Average of Occupied as SUM and Listing id as COUNT
 
 ### 3. Estimate Revenue for an Investment Property
 
-Estimated annual income for the property recommended in Lower East Side neighborhood would be 365*509*0.8 = $148,628
+Estimated annual income for the property recommended in Lower East Side neighborhood would be 365&#42*509*0.8 = $148,628
 - Although there were other properties in the same neighborhood that seemed lucrative my recommendation above is based on factors like the 
 consistency which is determined by the occupancy rate, host being a super host and having high number of reviews over the last twelve months
 - The number of bedrooms for the property recommended is 2 as that has been the most popular property size consistently being occupied with 
