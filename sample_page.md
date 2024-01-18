@@ -16,7 +16,6 @@ with defalt view and summarized by SUM.
 
 <img src="images/Targeted Properties.png?raw=true"/>
 
-
 ### 2. Calculate Occupancy
 
 - Created occupied column using the function =IF((D2="f"),1,0)
