@@ -1,4 +1,4 @@
-## NYC Airbnb Data Analysis
+## E-Commerce Business Analytics
 
 **Project description:** Analyze data collected on current Airbnb listings to identify targeted properties, calculate occupancy & estimate revenue for an investment property.
 
