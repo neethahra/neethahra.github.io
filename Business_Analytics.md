@@ -12,7 +12,7 @@
 2. 29.04% of the unique users i.e. 3036 proceeded to the next step of adding items to their shopping cart.
 3. 35.61% of users that added items to their shopping cart i.e. 1081 users made a purchase.
 
-<img src="images/Targeted Properties.png?raw=true"/>
+<img src="images/Conversion Funnel.png?raw=true"/>
 
 ### 2. Perform Cohort Analysis
 
