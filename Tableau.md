@@ -18,23 +18,31 @@ The view is filtered on Cuisine, which keeps 62 of 2,133 members.
 
 ### 3. Most Popular Restaurants
 
-The visualization shows Sum of Sales Amount vs. sum of Sales Qty with Color showing details about Rating.  The marks are labeled by Rating and Name. The view is filtered on Rating and Name. The Rating filter keeps 4.5, 4.6, 4.7, 4.8 and 4.9. The Name filter keeps 1,975 of 112,819 members.
+The visualization shows Sum of Sales Amount vs. sum of Sales Qty with Color showing details about Rating.  The marks are labeled by Rating and Name. The view is filtered on Rating and Name. The Rating filter keeps 4.5, 4.6, 4.7, 4.8 and 4.9 while the Name filter keeps 1,975 of 112,819 members.
 The plot shows some insightful data like a restaurant with a very high rating of 4.9 can have very average sales, for example The Republic of Biryani with a rating of 4.9 and sales amount of 54.352 only.
 
 <img src="images/Popular Restaurants.png?raw=true"/>
 
 ### 4. Restaurant Variety Within Top 5 Cities
 
-Cuisines are broken down by Name vs. City. The view is filtered on City and Name. The City filter keeps Baner,Pune, Electronic City,Bangalore, Malviya Nagar,Delhi, Raipur and Tirupati. The Name filter keeps 10 of 112,819 members.
+In this visualization, Cuisines are broken down by Name vs. City. The view is filtered on City and Name. The City filter keeps Baner,Pune, Electronic City,Bangalore, Malviya Nagar,Delhi, Raipur and Tirupati. The Name filter keeps 10 of 112,819 members.
 
 The table shows that Icecream, Pizzas and Desserts have been widely popular variety of restaurants in top cities.
 <img src="images/Restaurant Variety in top Cities.png?raw=true"/>
 
 ### 5. Expensive Cuisine
 
+The visualization shows Sum of Sales Amount for each Cuisine.  Color shows details about Cost and the view is filtered on Cost and Cuisine. The Cost filter keeps 10 of 364 members while the Cuisine filter keeps 10 of 2,133 members.
+
+The plot shows that North Indian ranks the highest in terms of cost of the cuisine and it also amounts for highest sales in comparison with others.
+
 <img src="images/Expensive Cuisine.png?raw=true"/>
 
 ### 6. Average Sales/Revenue Per User
+
+The visualization shows Average of Sales Amount for each count of Total Orders Per User broken down by Order Date Year vs. Cuisine. 
+Color shows average of Total Revenue Per User and the marks are labeled by average of Sales Amount. 
+The data is filtered on Order Date Quarter, which keeps Q1, Q2, Q3 and Q4 and the view is filtered on Cuisine, which keeps 10 of 2,133 members.
 
 <img src="images/Average Sales and Revenue per User.png?raw=true"/>
 
