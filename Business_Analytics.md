@@ -29,11 +29,7 @@ ascending order and occupied for values showing average with default view
 - Created a bar chart for day_of_week and occupied columns with Y-axis showing aggregated view of day of week 
 and Series of Average of Occupied as SUM and Listing id as COUNT
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
-
-<img src="images/Occupancy by DayOfWeek.png?raw=true"/>
-
-<img src="images/Average Occupancy per DayOfWeek.png?raw=true"/>
+<img src="images/Cohort Analysis.png?raw=true"/>
 
 ### 3. Calculate Retention Rate for each of the Cohorts
 
@@ -46,7 +42,7 @@ higher number of reviews over the last twelve months
 An updated estimated annual income for a 2 bedroom property recommended in Lower East Side neighborhood is 365&#42;451.92&#42;88.99 = $146,786.
 - The above recommendation is based on factors like high occupancy rate, high number of reviews over the last twelve months and host being super host.
 
-
+<img src="images/Retention Rate.png?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
