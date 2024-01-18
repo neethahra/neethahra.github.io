@@ -5,40 +5,41 @@
 ### 1. Cuisine Distribution in Restaurants
 
 The visualization shows the unique number of cuisines in each of the 10 popular restaurants and that subway has 13 distinct ones.
-Distinct count of Cuisine for each Name has been used and the view is filtered on Name, which keeps 10 of 112,819 members.
+The view is filtered on Name, which keeps 10 of 112,819 members.
 
-<img src="images/Targeted Properties.png?raw=true"/>
+<img src="images/Cuisine Distribution.png?raw=true"/>
 
 ### 2. Most Popular Cuisines
 
+The comparison between Count of Rating Count and Sales Amount shows that North Indian, Chinese was the highest in both visualizations while North Indian although comes third in Sales had a lower Rating Count.
+The view is filtered on Cuisine, which keeps 62 of 2,133 members.
 
-<img src="images/Occupancy by DayOfWeek.png?raw=true"/>
-
+<img src="images/Popular Cuisines.png?raw=true"/>
 
 
 ### 3. Most Popular Restaurants
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
+<img src="images/Popular Restaurants.png?raw=true"/>
 
 ### 4. Restaurant Variety Within Top 5 Cities
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
+<img src="images/Restaurant Variety in top Cities.png?raw=true"/>
 
 ### 5. Expensive Cuisine
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
+<img src="images/Expensive Cuisine.png?raw=true"/>
 
 ### 6. Average Sales/Revenue Per User
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
+<img src="images/Average Sales and Revenue per User.png?raw=true"/>
 
 ### 7. Popular Locations For Restaurants
 
-<img src="images/Average Price:Occupancy Rate.png?raw=true"/>
+<img src="images/Popular Location.png?raw=true"/>
 
 ### 8. Peak Time For Restaurants
 
-<img src="images/Restaurant Analysis.png?raw=true"/>
+<img src="images/Restaurant Peak Time.png?raw=true"/>
 
 ### Suggestions/Conclusions
 
