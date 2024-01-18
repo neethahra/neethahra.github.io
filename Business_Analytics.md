@@ -36,5 +36,7 @@ To calculate the retention rates, cohort_analysis was done using pivot table wit
 
 <img src="images/Retention Rate.png?raw=true"/>
 
+It was observed that retention rates were the highest in 2nd cohort with 44% of 1st cohort returning for a purchase in October of 2020 and 50% in November of 2020 respectively.
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
