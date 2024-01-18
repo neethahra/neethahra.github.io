@@ -4,7 +4,7 @@
 
 ### Advanced Spreadsheets 
 
-[NYC Airbnb Data Analysis](/sample_page)
+[NYC Airbnb Data Analysis](/Advanced_Spreadsheets)
 <br><br>
 <img src="images/Advanced Spreadsheets.png?raw=true"/>
 
