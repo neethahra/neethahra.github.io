@@ -48,9 +48,17 @@ The data is filtered on Order Date Quarter, which keeps Q1, Q2, Q3 and Q4 and th
 
 ### 7. Popular Locations For Restaurants
 
+Sum of Sales Qty for each City. The view is filtered on City, which keeps 10 of 821 members.
+
+The visualization shows that Electroniic City in Bangalore is the most popular area for restaurants within the city of Bangalore.
+
 <img src="images/Popular Locations.png?raw=true"/>
 
 ### 8. Peak Time For Restaurants
+
+The trend of sum of Sales Amount for Order Date Month.  The marks are labeled by sum of Sales Amount. The data is filtered on Order Date Year, which keeps 2017, 2018, 2019 and 2020.
+
+The trend shows a very interesting comparison between 4 different years and how peak times have varied in each year.
 
 <img src="images/Restaurant Peak Time.png?raw=true"/>
 
