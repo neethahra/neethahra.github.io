@@ -1,22 +1,20 @@
 ## E-Commerce Business Analytics
 
-**Project description:** Analyze data collected on current Airbnb listings to identify targeted properties, calculate occupancy & estimate revenue for an investment property.
+**Project description:** Analyze raw transaction logs of an e-commerce company to understand how website is converting product page views into purchases by building a conversion funnel, perform cohort analysis and calculate retention rates for each of the cohorts.
 
-### 1. Identify Targeted Properties
+### 1. Build a Conversion Funnel
 
-- Added neighborhood_clean column displaying neighborhood text trimmed and capitalized using = TRIM(PROPER(AB4))
-- Created a pivot table to focus on 10 most popular vacation rental neighborhoods in New York City. Pivot table has one row
-neighborhood_clean in descending order sorted by COUNT of number_of_reviews_ltm. Values of pivot table are number_of_reviews_ltm 
-with defalt view and summarized by SUM.
-- Added bedrooms_clean column next to bedrooms
+- Created a table representation of raw data categorized by event type and number of unique users for each event type (view, shopping_cart and purchase).
+- Conversion rates in percentage were calculated for two conversions, view to shopping_cart and shopping_cart to purchase by dividing the number of unique users for shopping_cart event type by number of unique users for view event type and diviiding number of unique users for purchase event type by number of unique users for shopping_cart event type respectively.
 
-- Created a pivot table for property sizes most popular in rentals with reference to number of bedrooms.
-- An assumption here is studio apartments have no bedrooms , so the count of bedrooms is 0
-- Pivot table is created with following: row as neighborhood_clean (ordered descending sorted by SUM of number_of_reviews_ltm and Grandtotal), column as bedrooms_clean ordered by ascending, sorted by SUM of number_of_reviews_ltm and Grandtotal and value as number_of_reviews_ltm summartized by SUM with % row view.
+- User data of ecommerce website was analysed between the period 2020-09-24 and 2021-02-28 and the following observations were made.
+1. Number of unique users that viewed the webiste were 10,453.
+2. 29.04% of the unique users i.e. 3036 proceeded to the next step of adding items to their shopping cart.
+3. 35.61% of users that added items to their shopping cart i.e. 1081 users made a purchase.
 
 <img src="images/Targeted Properties.png?raw=true"/>
 
-### 2. Calculate Occupancy
+### 2. Perform Cohort Analysis
 
 - Created occupied column using the function =IF((D2="f"),1,0)
 - Created day_of_week column using function =WEEKDAY(B2)
@@ -37,7 +35,7 @@ and Series of Average of Occupied as SUM and Listing id as COUNT
 
 <img src="images/Average Occupancy per DayOfWeek.png?raw=true"/>
 
-### 3. Estimate Revenue for an Investment Property
+### 3. Calculate Retention Rate for each of the Cohorts
 
 Estimated annual income for the property recommended in Lower East Side neighborhood would be 365&#42;509&#42;0.8 = $148,628
 - Although there were other properties in the same neighborhood that seemed lucrative my recommendation above is based on factors like the 
