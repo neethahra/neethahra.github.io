@@ -16,31 +16,23 @@
 
 ### 2. Perform Cohort Analysis
 
-- Created occupied column using the function =IF((D2="f"),1,0)
-- Created day_of_week column using function =WEEKDAY(B2)
-- Applied custom date and time format on day_of_week column to display the day of the week in short 
-form, Mon, Tue, Wed, Thu, Fri, Sat or Sun"
-
-- Created Pivot Table for average occupancy for any listing using listing_id for row sorted by listing id in 
-ascending order and occupied for values showing average with default view
-
-- Created another Pivot Table for highest occupancy based on day of the week by updating the above Pivot Table
-- Added day_of_week row sorted by average of occupied in descending order, Show totals
-- Created a bar chart for day_of_week and occupied columns with Y-axis showing aggregated view of day of week 
-and Series of Average of Occupied as SUM and Listing id as COUNT
+Monthly cohorts (6) analysed based on cohort age (0 to 4 months) taking count of unique users.
 
 <img src="images/Cohort Analysis.png?raw=true"/>
 
 ### 3. Calculate Retention Rate for each of the Cohorts
 
-Estimated annual income for the property recommended in Lower East Side neighborhood would be 365&#42;509&#42;0.8 = $148,628
-- Although there were other properties in the same neighborhood that seemed lucrative my recommendation above is based on factors like the 
-consistency which is determined by the occupancy rate, host being a super host and having high number of reviews over the last twelve months
-- The number of bedrooms for the property recommended is 2 as that has been the most popular property size consistently being occupied with 
-higher number of reviews over the last twelve months
+- Purchase activity data was extracted from raw data into purchase_activity sheet.
+- New columns first_purchase_date, event_month, first_purchase_month and cohort_age were added.
+- MIN event_date was calculated in first_purchase pivot table for each user_id.
+- MIN value was then populated in purchase_activity sheet for first_purchase_date column using VLOOKUP.
+- event_month and first_purchase_month values were extracted from first_purchase_date to columns event_month and first_purchase_month.
+- cohort_age was calculated using datedif in months between event_date and first_purchase_date.
 
-An updated estimated annual income for a 2 bedroom property recommended in Lower East Side neighborhood is 365&#42;451.92&#42;88.99 = $146,786.
-- The above recommendation is based on factors like high occupancy rate, high number of reviews over the last twelve months and host being super host.
+To calculate the retention rates, cohort_analysis was done using pivot table with first_purchase_month (2020-09, 2020-10, 2020-11, 2020-12, 2021-01 and 2021-02) as rows and cohort_age (0,1,2,3,4) as columns taking count of unique users as values. 
+- Retention rates were calculated in a new table categorized based on monthly cohorts (first_purchase_month leaving the final month 2021-02) as rows and cohort ages of 1 to 4 (0 is not considered as cohort just started) months as columns.
+- The values of retention rates for each row and column intersaction is calculated using formula "=IFERROR(cohort_analysis!C3/cohort_analysis!B3, "-")" i.e. dividing the current cohort_analysis value by the previous cohort's cohort_analysis value for the same first_purchase_month and representing in percentage.
+- The error condition replaces any divide by zero error with a "-".
 
 <img src="images/Retention Rate.png?raw=true"/>
 
