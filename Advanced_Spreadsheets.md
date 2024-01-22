@@ -45,6 +45,8 @@ consistency which is determined by the occupancy rate, host being a super host a
 - The number of bedrooms for the property recommended is 2 as that has been the most popular property size consistently being occupied with 
 higher number of reviews over the last twelve months.
 
-[Back To Top](/Advanced_Spreadsheets)                                                   [Back](/index)
+[Back To Top](/Advanced_Spreadsheets)                                                  
+
+[Back](/index)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
