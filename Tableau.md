@@ -86,6 +86,9 @@ From the visualizations, the following conclusions were drawn:
 2. Three of the most popular variety of cuisines are Pizzas, Icecream and Desserts and that businesses can have larger revenue by investing in these cuisines.
 3. Some of the restaurants with very high customer ratings had average sales which shows that there are other factors like cuisine variety, price, location of restaurant etc. that play a significant role in average sales.
 
+[Back To Top](/Tableau)                                                  
+
+[Back](/index)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
