@@ -43,7 +43,7 @@ Estimated annual income for a 2 bedroom property recommended in Lower East Side 
 - Although there were other properties in the same neighborhood that seemed lucrative my recommendation above is based on factors like the 
 consistency which is determined by the occupancy rate, host being a super host and having high number of reviews over the last twelve months
 
-### 4. Possible Recommendations to Business
+### Possible Recommendations to Business
 
 The number of bedrooms recommended for investment properties is 2 as that has been the most popular property size consistently being occupied with higher number of reviews over the last twelve months.
 
