@@ -36,7 +36,9 @@ To calculate the retention rates, cohort_analysis was done using pivot table wit
 
 <img src="images/Retention Rate.png?raw=true"/>
 
-It was observed that retention rates were the highest in 2nd cohort with 44% of 1st cohort returning for a purchase in October of 2020 and 50% in November of 2020 respectively.
+### Possible Recommendations to Business
+
+It is observed that retention rates are the highest in 2nd cohort with 44% of 1st cohort returning for a purchase in October of 2020 and 50% in November of 2020 respectively and is therefore recommended that the business should have an extensive inventory of products during the last quarter of a year and also that the E-Commerce system is scalable and robust to meet the increase in demand.
 
 [Back To Top](/Business_Analytics)                                                  
 
