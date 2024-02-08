@@ -76,15 +76,18 @@ It shows a very interesting comparison between 4 different years and how peak ti
 
 <img src="images/Restaurant Peak Time.png?raw=true"/>
 
-### Suggestions/Conclusions
+### Conclusions
 
 <img src="images/Restaurant Analysis.png?raw=true"/>
 
 From the visualizations, the following conclusions were drawn:
 
 1. One of the expensive cuisines is North Indian and that remains highest even in terms of sales.
-2. Three of the most popular variety of cuisines are Pizzas, Icecream and Desserts and that businesses can have larger revenue by investing in these cuisines.
-3. Some of the restaurants with very high customer ratings had average sales which shows that there are other factors like cuisine variety, price, location of restaurant etc. that play a significant role in average sales.
+2. Some of the restaurants with very high customer ratings had average sales which shows that there are other factors like cuisine variety, price, location of restaurant etc. that play a significant role in average sales.
+
+### Possible Recommendations to Business
+
+Three of the most popular variety of cuisines are Pizzas, Icecream and Desserts and that businesses can have larger revenue by investing in these cuisines.
 
 [Back To Top](/Tableau)                                                  
 
