@@ -42,8 +42,10 @@ and Series of Average of Occupied as SUM and Listing id as COUNT
 Estimated annual income for a 2 bedroom property recommended in Lower East Side neighborhood is 365&#42;451.92&#42;88.99 = $146,786.
 - Although there were other properties in the same neighborhood that seemed lucrative my recommendation above is based on factors like the 
 consistency which is determined by the occupancy rate, host being a super host and having high number of reviews over the last twelve months
-- The number of bedrooms for the property recommended is 2 as that has been the most popular property size consistently being occupied with 
-higher number of reviews over the last twelve months.
+
+### 4. Possible Recommendations to Business
+
+The number of bedrooms recommended for investment properties is 2 as that has been the most popular property size consistently being occupied with higher number of reviews over the last twelve months.
 
 [Back To Top](/Advanced_Spreadsheets)                                                  
 
